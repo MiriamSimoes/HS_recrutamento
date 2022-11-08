@@ -1,0 +1,90 @@
+html {
+    background: rgba(244,241,234,0.5);
+}
+
+.nav-bar {
+    display: flex;
+    border-top: 1px rgb(163, 119, 119) solid;
+    border-bottom: 1px rgb(163, 119, 119) solid;
+    align-items: center;
+    background-color: rgb(243, 241, 234);
+}
+
+.nav-bar > img {
+    flex: 0.5;    
+    margin-left: 100px;
+}
+
+.nav-bar div:first-of-type {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.search-bar {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    background-color: white;  
+    height: 30px;
+    width: 400px;
+}
+
+.search-bar h4 {
+    color: slategray;
+}
+
+.search-bar img {
+    margin-left: 300px;
+}
+
+.nav-bar div:last-of-type {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 100px;
+}
+
+.left-container {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.currently-reading {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px rgb(185, 190, 195) solid;
+} 
+
+.currently-reading > h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.currently-reading > div {
+    display: flex;
+}
+
+.currently-reading div div h4, div div h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.currently-reading > h4:last-of-type {
+    color:rgb(54, 84, 114);
+}
+
+.update-prog {
+    text-align: center;
+    border: 1px slategray solid;
+    width: 100px;
+}
+
+.update-prog * {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
